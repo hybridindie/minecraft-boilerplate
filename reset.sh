@@ -1,0 +1,1 @@
+rm -rf Server/cache Server/logs Server/world Server/world_nether Server/world_the_end

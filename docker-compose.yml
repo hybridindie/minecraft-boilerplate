@@ -1,0 +1,19 @@
+version: '3'
+# Other docker-compose examples in /examples
+
+services:
+  minecraft:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    image: johnd/minecraft-server
+    ports:
+      - "25565:25565"
+    volumes:
+      - "mc:/data"
+    environment:
+      EULA: "TRUE"
+    restart: always
+
+volumes:
+  mc: {}

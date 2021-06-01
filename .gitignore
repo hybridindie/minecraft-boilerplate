@@ -1,0 +1,10 @@
+Paper
+Geyser
+Floodgate
+RaspberryJuice
+
+Server/**/*
+.console_history
+.idea/
+.ipynb_*
+.DS_Store
